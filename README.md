@@ -1,100 +1,47 @@
-# Portfolio
-  <title>Elmer John Guerrero | KYC Analyst & Customer Service Professional</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elmer John Guerrero | KYC & Compliance Portfolio</title>
   <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      background: #f5f7fa;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: #0f172a;
-      color: #fff;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.1rem;
-      opacity: 0.9;
-    }
-    section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 60px 20px;
-    }
-    h2 {
-      color: #0f172a;
-      margin-bottom: 20px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #fff;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    }
-    .card h3 {
-      margin-top: 0;
-    }
-    .cta {
-      background: #0f172a;
-      color: #fff;
-      text-align: center;
-      padding: 50px 20px;
-    }
-    .cta a {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 30px;
-      background: #22c55e;
-      color: #000;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 25px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      background: #e5e7eb;
-    }
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f5f7fa;color:#1f2937;line-height:1.6}
+    header{background:#0f172a;color:#fff;text-align:center;padding:70px 20px}
+    header img{width:160px;height:160px;border-radius:50%;object-fit:cover;border:4px solid #fff;margin-bottom:20px}
+    h1{margin:0;font-size:2.6rem}
+    h2{color:#0f172a;margin-bottom:20px}
+    section{max-width:1100px;margin:auto;padding:70px 20px}
+    .tagline{opacity:.9;font-size:1.1rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+    .card{background:#fff;padding:28px;border-radius:14px;box-shadow:0 10px 25px rgba(0,0,0,.08)}
+    .card h3{margin-top:0;color:#0f172a}
+    ul{padding-left:18px}
+    .contact{display:flex;flex-wrap:wrap;gap:18px}
+    .pill{background:#e5e7eb;padding:10px 16px;border-radius:999px;font-weight:600}
+    .links a{display:inline-block;margin-right:14px;padding:12px 22px;border-radius:8px;color:#fff;text-decoration:none;font-weight:700}
+    .linkedin{background:#0a66c2}
+    .upwork{background:#14a800}
+    .cta{background:#0f172a;color:#fff;text-align:center;padding:60px 20px}
+    .cta a{background:#22c55e;color:#000;padding:14px 34px;border-radius:999px;text-decoration:none;font-weight:800}
+    footer{text-align:center;background:#e5e7eb;padding:20px;font-size:.9rem}
   </style>
 </head>
 <body>
 
 <header>
-  <img src="John Pic2.JPG" alt="Elmer John Guerrero" style="width:150px;height:150px;border-radius:50%;object-fit:cover;margin-bottom:20px;border:4px solid #fff;" />
+  <img src="John Pic2.JPG" alt="Elmer John Guerrero" />
   <h1>Elmer John Guerrero</h1>
-  <p>KYC Analyst | Customer Service Representative | Compliance & Risk Support</p>
-  <p>Remote • Detail-Oriented • Confidential</p>
+  <p class="tagline">KYC Analyst • Compliance Support • Customer Service Professional</p>
+  <p class="tagline">Remote | Detail‑Oriented | Confidential</p>
 </header>
-
-<section>
-  <h2>Contact Details</h2>
-  <ul>
-    <li><strong>Email:</strong> elmerjohn.guerrero1984@gmail.com</li>
-    <li><strong>Phone:</strong> +63 992 949 3589</li>
-    <li><strong>Location:</strong> Manila, Philippines (Remote)</li>
-  </ul>
-</section>
 
 <section>
   <h2>About Me</h2>
   <p>
-    I am a <strong>KYC Analyst and Customer Service Professional</strong> with experience supporting global financial institutions and BPO environments. 
-    I specialize in customer due diligence, document verification, risk assessment, and high-quality customer support across phone, chat, and email channels.
+    I am a <strong>KYC Analyst and Customer Service Professional</strong> with experience supporting global financial institutions and regulated BPO environments. I specialize in customer due diligence (CDD), document verification, risk assessment, and AML compliance support.
   </p>
   <p>
-    I have worked with regulated accounts, including financial services and Australian background screening, where accuracy, confidentiality, and compliance are critical.
+    I have handled sensitive financial data, Australian background screening, and high‑volume customer interactions across phone, chat, and email. I am reliable, detail‑oriented, and committed to accuracy, confidentiality, and deadlines.
   </p>
 </section>
 
@@ -106,96 +53,53 @@
       <ul>
         <li>Customer Due Diligence (CDD)</li>
         <li>ID & document verification</li>
-        <li>Risk assessment & escalation support</li>
-        <li>AML compliance documentation</li>
-        <li>Record keeping & regulatory accuracy</li>
+        <li>Risk assessment & escalation</li>
+        <li>AML documentation review</li>
       </ul>
     </div>
     <div class="card">
-      <h3>Customer Service Support</h3>
+      <h3>Customer Support</h3>
       <ul>
-        <li>Inbound & outbound call handling</li>
-        <li>Email and live chat support</li>
-        <li>Complaint resolution & de-escalation</li>
-        <li>Billing, delivery, and account issues</li>
-        <li>Customer follow-ups & satisfaction</li>
+        <li>Phone, chat & email support</li>
+        <li>Complaint handling & de‑escalation</li>
+        <li>Billing & account issue resolution</li>
+        <li>Customer follow‑ups</li>
       </ul>
     </div>
     <div class="card">
       <h3>Admin & Data Support</h3>
       <ul>
-        <li>Data entry & documentation</li>
-        <li>CRM & internal system updates</li>
+        <li>CRM & system updates</li>
+        <li>Data entry & validation</li>
         <li>Report preparation</li>
-        <li>Process improvement support</li>
-        <li>Attention-to-detail tasks</li>
+        <li>Documentation support</li>
       </ul>
     </div>
   </div>
 </section>
 
 <section>
-  <h2>Professional Experience</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Citi Group – KYC Retail Analyst / CSR</h3>
-      <p><strong>Aug 2025 – Present</strong></p>
-      <ul>
-        <li>Verified customer identities and performed due diligence reviews</li>
-        <li>Assessed financial crime and AML risk</li>
-        <li>Maintained accurate compliance records</li>
-        <li>Handled high-volume customer interactions</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>Alorica Philippines – Customer Service Representative</h3>
-      <p><strong>Aug 2023 – Jan 2025</strong></p>
-      <ul>
-        <li>Provided phone, chat, and email support</li>
-        <li>Resolved billing, delivery, and order issues</li>
-        <li>Maintained high customer satisfaction scores</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h3>First Advantage – Background Screening Associate</h3>
-      <p><strong>Jun 2007 – Mar 2009</strong></p>
-      <ul>
-        <li>Conducted Australian bankruptcy and criminal checks</li>
-        <li>Verified directorships and visa status</li>
-        <li>Ensured accuracy for background screening reports</li>
-      </ul>
-    </div>
+  <h2>Contact & Profiles</h2>
+  <div class="contact">
+    <span class="pill">📧 elmerjohn.guerrero1984@gmail.com</span>
+    <span class="pill">📞 +63 992 949 3589</span>
+    <span class="pill">📍 Manila, Philippines (Remote)</span>
   </div>
-</section>
-
-<section>
-  <h2>Skills & Tools</h2>
-  <ul>
-    <li>KYC & AML Compliance</li>
-    <li>Customer Service & De-escalation</li>
-    <li>Attention to Detail</li>
-    <li>Analytical Thinking</li>
-    <li>MS Office & Data Entry</li>
-    <li>CRM & Ticketing Systems</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Connect With Me</h2>
-  <div style="display:flex;gap:15px;flex-wrap:wrap;">
-    <a href="https://www.linkedin.com/in/elmer-john-guerrero-0aa744113" target="_blank" style="padding:12px 20px;background:#0a66c2;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;">LinkedIn</a>
-    <a href="https://www.upwork.com/freelancers/~01425132eb3734bc73" target="_blank" style="padding:12px 20px;background:#14a800;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;">Upwork</a>
+  <br />
+  <div class="links">
+    <a class="linkedin" href="https://www.linkedin.com/in/elmer-john-guerrero-0aa744113" target="_blank">LinkedIn</a>
+    <a class="upwork" href="https://www.upwork.com/freelancers/~01425132eb3734bc73" target="_blank">Upwork</a>
   </div>
 </section>
 
 <div class="cta">
   <h2>Let’s Work Together</h2>
-  <p>Available for remote freelance or contract work</p>
-  <a href="mailto:elmerjohn.guerrero1984@gmail.com">Contact Me</a>
+  <p>Available for freelance, contract, or long‑term remote work</p>
+  <a href="mailto:elmerjohn.guerrero1984@gmail.com">Hire Me</a>
 </div>
 
 <footer>
-  © 2026 Elmer John Guerrero • Remote Professional
+  © 2026 Elmer John Guerrero • Professional Portfolio
 </footer>
 
 </body>
